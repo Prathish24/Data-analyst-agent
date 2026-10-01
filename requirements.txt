@@ -1,0 +1,24 @@
+# Core app
+streamlit>=1.39
+pandas>=2.2
+numpy>=1.26
+duckdb>=1.1
+plotly>=5.24
+
+# Agent
+langgraph>=0.2.50
+langchain-core>=0.3.20
+langchain>=0.3.7
+langchain-groq>=0.2.3
+langchain-anthropic>=0.3.0 # only needed if LLM_PROVIDER=anthropic
+langchain-openai>=0.2.9   # only needed if LLM_PROVIDER=openai
+
+# File formats
+openpyxl>=3.1
+pyarrow>=17.0
+tabulate>=0.9
+
+# Optional but recommended
+scipy>=1.13
+statsmodels>=0.14          # enables scatter trendlines
+python-dotenv>=1.0
